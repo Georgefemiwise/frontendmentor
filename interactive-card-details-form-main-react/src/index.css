@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-desktop {
+	background-image: url('./assets/bg-main-desktop.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.bg-mobile {
+	background-image: url('./assets/bg-main-mobile.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.card-front {
+	background-image: url('./assets/bg-card-front.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.card-back {
+	background-image: url('./assets/bg-card-back.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.card-number
+{
+	letter-spacing: .5em;
+}
